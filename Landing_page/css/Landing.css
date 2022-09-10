@@ -36,9 +36,23 @@ img {
     position: relative;
 }
 
+.start::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    background: rgba(0, 0, 0);
+    opacity: 0.6;
+   
+}
+
 .start_top {
     position: relative;
     height: 90px;
+    z-index: 2;
 
 }
 
@@ -53,6 +67,7 @@ img {
 
 .start_collective {
     margin-top: 8%;
+    z-index: 2;
     align-items: center;
     text-align: center;
     position: relative;
