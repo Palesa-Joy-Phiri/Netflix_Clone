@@ -1,0 +1,78 @@
+
+
+html {
+    background-color: black;
+}
+
+h1 {
+color: rgb(255, 255, 255);
+
+}
+
+/* .imageDiv { */
+
+
+
+
+.watching {
+    width: 100vw;
+    min-height: 100vh;
+   
+}
+
+.watching img {
+    width: 190px;
+    margin-top: 4%;
+    margin-left: 10%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    
+}
+
+.watching h1 {
+    width: 100vw;
+    padding-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.member {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.names {
+    font-size: 110%;
+}
+
+.newuser {
+    font-size: 110%;
+}
+
+.manageProfile {
+    width: 10vw;
+    margin-top: 10%;
+    margin: auto;
+    padding: 0.4% 0.4%;
+    text-align: center;
+    color: grey;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    border: 1px grey solid;
+    margin-top: -12%;
+    background-color: transparent;
+    cursor: pointer;
+}
