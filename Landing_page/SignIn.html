@@ -11,57 +11,76 @@
     <title> Netflix - Watch TV Shows Online, Watch Movies Online </title>
 
     <!-- Css link -->
-    <link rel= "stylesheet" href= "CSS/Signin.css">
+    <link rel= "stylesheet" href= "css/Signin.css">
 
     <!-- Tab Logo link -->
     <link rel= "Logo" href= "landing_page/Images/Netflix_logo">
-    
-    <!-- Font awesome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
-<body> 
+<!--Start of the body-->
+<body>
 
+    <!-- JavaScript link -->
+    <script src= "JavaScript/Signin.js"></script>
 
-    <main class="watching">
+  
+    <main class="box">
 
-        <div class="imageDiv">
+        <div class="image">
             <img src="Images/Netflix_logo.png" alt="Netflix_Icon">
-
-            <h1> Who's watching? </h1>
-
         </div>
-        
+    
+        <form class="form">
+            <h1 class="signIn"> Sign In</h1>
 
-        <div class="buttons">
- 
-            <div class="member">
-                <button class="names" id="member1">
-                    
-                </button>
-                <span> Londeka </span>
-
-                <button class="names" id="member2">
-                    <span> Kristen </span>
-                </button>
-
-                <button class="names" id="member3">
-                    <span> Palesa </span>
-                </button>
-
-                <button class="newuser" id="member4">
-                    <i class="fa fa-plus"></i>
-                    <span> Add Profile </span>
-                </button>
+            <div class ="emailPhone">
+                  <input class="doc" type="text" label="hi" placeholder="Email or phone number" required="true">
             </div>
-            
-            <button class="manageProfile">  Manage Profile </button>
-           
-        </div>
+
+            <div class ="secret">
+                 <input class="password" type="text" placeholder="Password" required="true">
+            </div>
+
+            <button class = "press">
+                <a href = "Profile.html">
+                    Sign In
+                </a>
+            </button>
+
+            <div class="rememberBox">
+                <input class="rememberMe" type = "checkbox">
+                <a> Remember Me</a>
+            </div>
+
+            <div class="needHelp">
+
+                 <a href="#"> Need help?</a>
+            </div>
+
+            <div class="facebook">
+                <img src="Images/Facebook.png" alt="Facebook Logo">
+                 <a href="#"> Login with Facebook</a>
+            </div>
+
+            <div class="signUp">
+                <p>
+                    New to netflix?
+                    <a href="#">
+                        Sign up now
+                    </a>
+                </p>
+            </div>
+
+            <h5 class="tandc">
+                This page is protected by google reCATCHA to ensure you're not a bot.
+                <a href="#"> Learn more. </a>
+            </h5>
+
+        </form>
+
 
     </main>
-
 
 </body>
 

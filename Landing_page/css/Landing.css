@@ -46,7 +46,6 @@ img {
     z-index: 1;
     background: rgba(0, 0, 0);
     opacity: 0.6;
-    /*box-shadow: inset 120px 100px 250px rgb(18, 18, 18, 0), inset -120px -100px 250px rgb(18, 18, 18, 0);*/
 }
 
 .start_top {
