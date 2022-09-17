@@ -1,0 +1,160 @@
+
+
+html {
+    background-color: black;
+}
+
+h1 {
+color: rgb(255, 255, 255);
+}
+
+.watching {
+    width: 100vw;
+    min-height: 90vh;  
+}
+
+.watching img {
+    width: 190px;
+    margin-top: 2%;
+    margin-left: 8%;
+    position: absolute;
+    transform: translate(-50%, -50%);    
+}
+
+.watching h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    padding-top: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 50vh;
+}
+
+.member {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.names span {
+    width: inherit;
+    
+    position: absolute;
+    bottom: 9.5rem;
+    margin-left: -6.4%;
+    text-transform: capitalize;
+    color: white;
+}
+
+.names {
+    font-size: 110%;
+    padding: 4% 4%;
+    cursor: pointer;
+
+    border-radius: 0.4rem;
+    margin-right: 2.4rem;
+    width: 13%;
+    height: 70%;
+    border: none;
+    outline: none;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.names:hover {
+    box-shadow: inset 0 0 0 5px rgba(255, 255,255, 0.9);
+}
+
+.newuser span{
+    width: inherit;
+
+    color: white;
+    position: absolute;
+    bottom: 9.5rem;
+    margin-left: -6.4%;
+}
+
+.newuser {
+    font-size: 110%;
+    padding: 4% 4%;
+    cursor: pointer;
+
+    border-radius: 0.4rem;
+    margin-right: 2.4rem;
+    width: 13%;
+    height: 70%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+}
+
+.newuser:hover {
+    box-shadow: inset 0 0 0 5px rgba(255, 255,255, 0.9);
+}
+
+.fa-plus-circle {
+    color: grey;
+    opacity: 2;
+    margin-top: 4rem;
+}
+
+.fa-plus-circle:hover {
+    color: rgb(52, 49, 49);
+}
+
+#add {
+    font-size: 5.7rem;
+    margin: auto;   
+    margin-top: -2rem;   
+}
+
+.newuser:hover {
+    background-color: white;
+}
+
+.manageProfile {
+    width: 10vw;
+    margin-top: 10%;
+    margin: auto;
+    padding: 0.4% 0.4%;
+    text-align: center;
+    color: grey;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    border: 1px grey solid;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.manageProfile:hover {
+    border: 2px grey solid;
+    background-color: transparent;
+    color: white;
+    text-shadow: 10ch;
+}
+
+#member1 {
+    background-image: url(../Images/BlueSmileMonster.png);
+}
+
+#member2 {
+    background-image: url(../Images/OrangeMonster.png);
+}
+#member3 {
+    background-image: url(../Images/RedSmileMonster.jpg);
+}
