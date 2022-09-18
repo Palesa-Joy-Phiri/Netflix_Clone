@@ -94,7 +94,6 @@
     height: 100%;
     margin: 24px 0 12px;
     
-    
     background-color: red;
     color: rgb(255, 255, 255);
     border-radius: 0.3rem;
@@ -111,15 +110,74 @@
     text-decoration: none;
 }
 
+/* The Remember Me checkbook in alignment with the Need help link */
+
+.rememberBox a {
+    color: rgb(138, 137, 137)
+}
+
 .needHelp {
     transform: translate(75%, -100%);
 }
 
 .needHelp a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(138, 137, 137);
 }
 
 .needHelp a:hover {
     text-decoration: underline;
+}
+
+/* Facebook icon and link to login with facebook under the form */
+.facebook img {
+    width: 22px;
+    margin-right: 10px;
+}
+
+.facebook {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.facebook a {
+    text-decoration: none;
+    color: rgb(138, 137, 137);
+}
+
+.facebook a:hover {
+    text-decoration: underline;
+}
+
+/* Sign up section bottom of the form */
+
+.signUp {
+    margin-bottom: 12px;
+    color:rgb(138, 137, 137);
+}
+
+.signUp a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.signUp a:hover {
+    text-decoration: underline;
+}
+
+/* Information regarding protection from google */
+
+.tandc {
+    color: rgb(138, 137, 137);
+}
+
+.tandc a {
+    text-decoration: none;
+    color: blue;
+}
+
+.tandc a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
 }
