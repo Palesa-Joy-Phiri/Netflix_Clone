@@ -8,13 +8,19 @@
     <meta name= "viewport" content="width=device-width, initial-scale= 1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title> Netflix - Watch TV Shows Online, Watch Movies Online </title>
+    <title> Netflix - Sign in </title>
 
     <!-- Css link -->
     <link rel= "stylesheet" href= "css/Signin.css">
 
     <!-- Tab Logo link -->
     <link rel= "Logo" href= "landing_page/Images/Netflix_logo">
+
+    <!-- Vue.js link -->
+    <script src="https://unpkg.com/vue@3.0.0-beta.12/dist/vue.global.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script> const mountedApp = app.mount("app") </script>
+
 
 </head>
 
@@ -30,19 +36,19 @@
         <div class="image">
             <img src="Images/Netflix_logo.png" alt="Netflix_Icon">
         </div>
-    
-        <form class="form">
-            <h1 class="signIn"> Sign In</h1>
+     
+        <form class="form" id="app">
+            <h1 class="signIn"> Sign In <!--{{sign}}--> </h1>
 
             <div class ="emailPhone">
-                  <input class="doc" type="text" placeholder="Email or phone number" required="true">
+                  <input class="doc" type="email" placeholder="Email or phone number" required="true">
             </div>
 
             <div class ="secret">
                  <input class="password" type="text" placeholder="Password" required="true">
             </div>
 
-            <button class = "press">
+            <button class = "press" v-on:click>
                 <a href = "Profile.html" type="submit">
                     Sign In
                 </a>
@@ -60,13 +66,13 @@
 
             <div class="facebook">
                 <img src="Images/Facebook.png" alt="Facebook Logo">
-                 <a href="#"> Login with Facebook</a>
+                 <a href="https://web.facebook.com/netflix/?_rdc=1&_rdr"> Login with Facebook</a>
             </div>
 
             <div class="signUp">
                 <p>
                     New to netflix?
-                    <a href="#">
+                    <a href="https://www.google.com/search?q=new+to+netflix+sign+up+now&rlz=1C1CHBF_enZA994ZA994&ei=sc8lY9nOApaR8gKt17jQCg&ved=0ahUKEwiZ6_yi-5v6AhWWiFwKHa0rDqoQ4dUDCA4&oq=new+to+netflix+sign+up+now&gs_lcp=Cgdnd3Mtd2l6EAwyBQgAEIAEMgUIABCGAzIFCAAQhgM6CggAEEcQ1gQQsAM6BwgAELADEEM6DQgAEOQCENYEELADGAE6DAguEMgDELADEEMYAjoECAAQQzoGCAAQHhAWOggIABAeEBYQCkoECEEYAEoECEYYAVCPRFjadWDfqAFoAnABeACAAbUDiAH6G5IBCDItMTEuMC4xmAEAoAEByAETwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz">
                         Sign up now
                     </a>
                 </p>
@@ -74,7 +80,7 @@
 
             <h5 class="tandc">
                 This page is protected by google reCATCHA to ensure you're not a bot.
-                <a href="#"> Learn more. </a>
+                <a href="https://support.google.com/recaptcha/?hl=en"> Learn more </a>
             </h5>
 
         </form>
