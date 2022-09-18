@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang= "en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name= "viewport" content="width=device-width, initial-scale= 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title> Netflix - Home </title>
+
+    <!-- Css link -->
+    <link rel= "stylesheet" href= "css/T_Home_Page.css">
+
+    <!-- Tab Logo link -->
+    <link rel= "Logo" href= "landing_page/Images/Netflix_logo">
+
+    <!-- Font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Vue.js link -->
+    <script src="https://unpkg.com/vue@3.0.0-beta.12/dist/vue.global.js" ></script>
+
+</head>
+
+<!--Start of the body-->
+<body>
+
+    <!-- JavaScript link -->
+    <script src= "JavaScript/T_Home.js"></script>
+
+    <nav class="header">
+        <div class="image">
+            <img src="Images/Netflix_logo.png" alt="Netflix_Icon">
+        </div>
+ 
+        <div class="options" >
+            <ul>
+                <a href="" class="items"> Home </a>
+            </ul>
+
+            <ul>
+                <a href="" class="items"> TV Shows </a>
+            </ul>
+
+            <ul>
+                <a href="" class="items"> Movies </a>
+            </ul>
+
+            <ul>
+                <a href="" class="items"> New & Popular </a>
+            </ul>
+
+            <ul>
+                <a href="" class="items"> My List </a>
+            </ul>
+            
+            <form class="form">
+                    <input class="search" type="text" placeholder="Search">
+                    <button type="submit"> Search </button>
+            </form>
+
+            <div class="items" id="logOutOptions">
+                    <img src="Images/OrangeMonster.png">
+                
+                    <select class="menu" data-toggle="dropdown">
+                        <option>
+                            <a class="navDownItem" href="Profile.html"> Other Profiles </a>
+                        </option>
+
+                        <option>
+                            <a class="navDownItem" href="Landing.html">Landing Page </a>
+                        </option>
+
+                        <option>
+                            <a class="navDownItem" href="#">Help Center </a>
+                        </option>
+
+                        <option>
+                            <a class="navDownItem" href="#">Sign Out </a>
+                        </option>
+                    </select>
+                </div>
+
+        </div>
+    </nav>
+
+
+    <video class="video" autoplay loop poster="">
+        <source
+            src="https://www.youtube.com/embed/202KkD12AuI?autoplay=0&controls=0&modestbranding=1"
+            allow="autoplay; picture-in-picture; acceleratometer"
+            type="video"
+            >   
+
+    </source>
+    </video>
+
+    <div class="wow"> 
+        <button class="hi" data-toggle="dropdown"> Netflix </button>
+        <div class="nav">
+            <a  href="Profile.html"> Other Profiles </a>
+            <a class="na" href="Landing.html">Landing Page </a>
+            <a  href="#">Help Center </a>
+            <a  href="#">Sign Out </a>
+        </div>
+    </div>
+    
+</div>
+
+
+</body>
